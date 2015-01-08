@@ -1,0 +1,39 @@
+[user]
+  name  = Teddy Zetterlund
+  email = teddy.zetterlund@gmail.com
+
+[github]
+  user = teddyzetterlund
+
+[credential]
+  helper = osxkeychain
+
+[alias]
+  g = grep --break --heading --line-number
+  s = status
+  a = add
+  c = commit -v
+  ca = commit -av
+  co = checkout
+
+[core]
+  editor = vim
+  excludefile = ~/.gitignore_global
+  whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+  autocrlf = input
+
+[push]
+  default = upstream
+
+[color]
+  ui = true
+
+[apply]
+  whitespace = fix
+
+[diff]
+  tool = vimdiff
+
+[merge]
+  log = true
+  tool = vimdiff

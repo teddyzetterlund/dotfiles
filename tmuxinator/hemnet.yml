@@ -1,0 +1,13 @@
+# ~/.tmuxinator/hemnet.yml
+
+name: hemnet
+root: ~/Code/hemnet/hemnet-ng
+
+windows:
+  - tunnel: ssh hntest
+  - server: ./script/server
+  - logs: tail -f log/development.log
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim

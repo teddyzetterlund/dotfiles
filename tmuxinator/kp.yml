@@ -1,0 +1,12 @@
+# ~/.tmuxinator/kp.yml
+
+name: kp
+root: ~/Code/hemnet/kundportalen
+
+windows:
+  - server: bundle exec rails s
+  - logs: tail -f log/development.log
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim

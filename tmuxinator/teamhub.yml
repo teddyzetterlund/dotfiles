@@ -1,0 +1,12 @@
+# ~/.tmuxinator/teamhub.yml
+
+name: teamhub
+root: ~/Code/teamhub/teamhub-web
+
+windows:
+  - server: bundle exec rails s
+  - logs: tail -f log/development.log
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim

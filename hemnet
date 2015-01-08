@@ -1,0 +1,2 @@
+# Load Hemnet Terminal Command.
+eval "$(~/Code/hemnet/hemnet-terminal-command/bin/hemnet init -)"
