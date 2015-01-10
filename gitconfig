@@ -37,3 +37,6 @@
 [merge]
   log = true
   tool = vimdiff
+
+[init]
+  templatedir = ~/.git_template
