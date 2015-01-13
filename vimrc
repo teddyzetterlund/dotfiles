@@ -62,6 +62,7 @@ Plugin 'othree/html5-syntax.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " Writing
 Plugin 'reedes/vim-pencil'
